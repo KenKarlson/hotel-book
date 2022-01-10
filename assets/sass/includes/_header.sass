@@ -1,0 +1,52 @@
+.header
+  position: relative
+  height: 100vh
+  background-image: url(../../assets/img/hotel-bg.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-color: rgba(6, 41, 70, 0.5)
+  &__title
+    font-size: 56px
+    font-weight: 700
+  &-select
+    //margin: auto
+    max-width: 80px
+.center
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+  color: #fff
+.form
+  &-label
+    &__text
+      font-size: 16px
+      font-weight: 700
+  &-button
+    margin: 25px 0 0 0
+    padding: 10px 20px
+    border-radius: 6px
+    border: none
+    background-color: #0254a1
+    color: #ccc
+    font-size: 18px
+    font-weight: 700
+.formWrapper
+  margin: 0
+  padding: 50px 20px 30px 20px
+  border-radius: 8px
+  border: none
+  background-color: #FFF
+  color: #222
+select
+  padding: 4px 4px
+  width: 150px
+  //background-color: #c4e7f7
+  border-radius: 4px
+  border: none
